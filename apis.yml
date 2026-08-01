@@ -1,7 +1,28 @@
 aid: rdbio
-name: rdbio
-description: rdbio is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rdbio.png
+name: rdbio (仁度生物 / Rendo Biotech)
+description: Rendo Biotech (仁度生物) is a Shanghai-based molecular diagnostics company
+  founded in 2007 and listed on China's STAR Market (Science and Technology Innovation
+  Board, stock code 688193). It specializes in pathogen RNA clinical detection, developing
+  diagnostic reagents and fully automated nucleic-acid analysis instruments across five
+  clinical areas — reproductive-health screening, bloodborne pathogen detection, respiratory
+  infections, enterovirus identification, and food safety. The company serves 700+ medical
+  institutions and holds 74+ invention patents. It was surfaced as a portfolio company of
+  the Qiming Venture Partners network and added to the API Evangelist network. As of this
+  enrichment pass, Rendo Biotech publishes no public developer API, OpenAPI definition,
+  SDK, or documentation surface — it is a diagnostics-instrument and reagents manufacturer,
+  not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/rdbio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Molecular Diagnostics
+- Clinical Diagnostics
+- Life Sciences
+- Healthcare
+- RNA Detection
+- Medical Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rdbio-domain-security.yml
 - type: Website
   url: https://rdbio.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
